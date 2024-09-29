@@ -1,4 +1,4 @@
-FROM node:16.10.0-alpine3.14
+FROM node:18.20.4-alpine3.20
 RUN apk update && apk add --no-cache autoconf \
     automake \
     git \
